@@ -53,7 +53,13 @@ object AppModule {
         appDispatchers: AppDispatchers, @ApplicationContext context: Context
     ): NewsRepository {
         return NewsRepositoryImpl(
-
+            retrofitNewsMapper,
+            nyTimesApi,
+            roomNewsMapper,
+            newsDao,
+            newsImageDao,
+            appDispatchers,
+            context
         )
     }
 }
