@@ -11,9 +11,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name="com.syyamnoor.mytimestopstories.HiltTestActivity"
         android:theme="@style/Theme.NyTimesTopStories">
         <activity
-            android:name="com.syyamnoor.mytimestopstories.MainActivity"
+            android:name="com.syyamnoor.mytimestopstories.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

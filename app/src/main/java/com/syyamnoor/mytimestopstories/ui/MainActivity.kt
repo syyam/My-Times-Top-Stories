@@ -1,7 +1,8 @@
-package com.syyamnoor.mytimestopstories
+package com.syyamnoor.mytimestopstories.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.syyamnoor.mytimestopstories.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
