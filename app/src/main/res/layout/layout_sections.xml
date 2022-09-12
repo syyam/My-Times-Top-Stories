@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radioGroup_columns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton_arts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/arts" />
+
+            <RadioButton
+                android:id="@+id/radioButton_automobiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/automobiles" />
+
+            <RadioButton
+                android:id="@+id/radioButton_books"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/books" />
+
+            <RadioButton
+                android:id="@+id/radioButton_fashion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fashion" />
+
+            <RadioButton
+                android:id="@+id/radioButton_food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/food" />
+
+            <RadioButton
+                android:id="@+id/radioButton_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/health" />
+
+            <RadioButton
+                android:id="@+id/radioButton_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/home" />
+
+            <RadioButton
+                android:id="@+id/radioButton_movies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/movies" />
+
+            <RadioButton
+                android:id="@+id/radioButton_politics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/politics" />
+
+            <RadioButton
+                android:id="@+id/radioButton_science"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/science" />
+
+            <RadioButton
+                android:id="@+id/radioButton_sports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sports" />
+
+            <RadioButton
+                android:id="@+id/radioButton_technology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/technology" />
+
+            <RadioButton
+                android:id="@+id/radioButton_world"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/world" />
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>
