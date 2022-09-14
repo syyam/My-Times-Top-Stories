@@ -34,11 +34,11 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:visibility="@integer/detail_toolbar_visibility"
+                android:visibility="visible"
                 app:layout_collapseMode="pin"
                 app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-                tools:title="As Tanks Rolled Into Ukraine, So Did Malware" />
+                tools:title="toolbar" />
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -118,7 +118,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:textColor="?colorPrimary"
-                        tools:text="U.S, Technology" />
+                        tools:text="category" />
                 </LinearLayout>
 
                 <TextView

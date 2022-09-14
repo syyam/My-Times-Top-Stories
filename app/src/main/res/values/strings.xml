@@ -24,7 +24,6 @@
     <string name="search_news">Search News</string>
     <string name="select_news_item">Select a news item to read</string>
     <string name="error_loading_web">Error loading the webpage</string>
-    <string name="create_news">Create News</string>
     <string name="share">Share</string>
     <string name="geeric_error">An unknown error occurred, please try again later</string>
     <string name="internet_connection_error">Please check your internet connection and try again</string>
