@@ -8,12 +8,12 @@ data class TopStories(
     val copyright: String,
     val last_updated: String,
     val num_results: Int,
-    val results: List<NewsItemRetro1>,
+    val results: List<NewsItemResult>,
     val section: String,
     val status: String
 )
 
-data class NewsItemRetro1(
+data class NewsItemResult(
     var id: Long = ++ increment,
     val abstract: String,
     val byline: String,

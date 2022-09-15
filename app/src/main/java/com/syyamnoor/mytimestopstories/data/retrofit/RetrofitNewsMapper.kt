@@ -1,14 +1,14 @@
 package com.syyamnoor.mytimestopstories.data.retrofit
 
-import com.syyamnoor.mytimestopstories.data.retrofit.models.NewsItemRetro1
+import com.syyamnoor.mytimestopstories.data.retrofit.models.NewsItemResult
 import com.syyamnoor.mytimestopstories.domain.models.News
 import com.syyamnoor.mytimestopstories.domain.models.NewsImage
 import com.syyamnoor.mytimestopstories.domain.utils.EntityDomainMapper
 import javax.inject.Inject
 
 class RetrofitNewsMapper
-@Inject constructor() : EntityDomainMapper<NewsItemRetro1, News>() {
-    override fun entityToDomain(entity: NewsItemRetro1): News {
+@Inject constructor() : EntityDomainMapper<NewsItemResult, News>() {
+    override fun entityToDomain(entity: NewsItemResult): News {
         val images = mutableListOf<NewsImage>()
         for (media in entity.multimedia) {
             if (media.type == "image") {
@@ -30,8 +30,8 @@ class RetrofitNewsMapper
     }
 
     //
-    override fun domainToEntity(domain: News): NewsItemRetro1 {
-        return NewsItemRetro1(
+    override fun domainToEntity(domain: News): NewsItemResult {
+        return NewsItemResult(
             domain.id,
             "",
             domain.publishDate.toString(),

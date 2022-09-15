@@ -6,13 +6,13 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:name=".NyTimesTopStoriesApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name="com.syyamnoor.mytimestopstories.HiltTestActivity"
-        android:theme="@style/Theme.NyTimesTopStories">
+        android:theme="@style/Theme.NyTimesTopStories.NoActionBar">
         <activity
             android:name="com.syyamnoor.mytimestopstories.ui.MainActivity"
             android:exported="true">
