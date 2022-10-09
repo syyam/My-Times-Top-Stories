@@ -1,7 +1,7 @@
 # My-Times-Top-Stories
 
 ## GOAL
-Develop a simple app presenting a list of all New York Times Top Stories in a master view, with a
+A single activity app presenting a list of all New York Times Top Stories in a master view, with a
 detail view of each story.
 
 #### Classes have been designed in such a way that it could be inherited and maximize the code reuse.
